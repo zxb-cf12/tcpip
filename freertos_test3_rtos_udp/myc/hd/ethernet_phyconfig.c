@@ -275,7 +275,7 @@ void LwIP_EthernetInit()
     //uint8_t macaddress[6]={0,0,0,0,0,1};
     uint8_t macaddress[6]={0xcc,0xbb,0xaa,0x99,0x88,0x2};
 
-    IP4_ADDR(&ipaddr, 192, 168, 1, 7);
+    IP4_ADDR(&ipaddr, 192, 168, 1, 222);
     IP4_ADDR(&netmask, 255, 255, 255, 0);
     IP4_ADDR(&gw, 192, 168, 1, 1);
     MACaddr[0] = macaddress[0];
